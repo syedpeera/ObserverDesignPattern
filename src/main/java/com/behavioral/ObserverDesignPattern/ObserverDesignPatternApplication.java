@@ -8,7 +8,7 @@ public class ObserverDesignPatternApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ObserverDesignPatternApplication.class, args);
-		ConcreteYoutubeChannel youtubeChannel1 = new ConcreteYoutubeChannel();
+		YoutubeChannel youtubeChannel1 = new ConcreteYoutubeChannel();
 		
 		Subscriber subscriber1 = new ConcreteSubscriber("Alice");
 		Subscriber subscriber2 = new ConcreteSubscriber("Bob");
